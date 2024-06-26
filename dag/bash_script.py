@@ -48,7 +48,7 @@ sql_create_table = PostgresOperator(
        product_identifier VARCHAR ,
        start_time TIMESTAMP,
        end_time TIMESTAMP,
-	   price_in_usd);""",
+	   price_in_usd FLOAT);""",
 	   dag=dag)
 
 
